@@ -502,9 +502,8 @@
         }
         .musicPlayer{
             display: flex;
-            position: absolute;
-            bottom: 190px;
-            left: 6px;
+            position: fixed;
+            margin-bottom: -21vh;
         }
         .musicPlayer__container-left{
             display: flex;
@@ -895,12 +894,6 @@
                 display: inline-block;
                 height: 20px;
             }
-            .musicPlayer{
-                display: flex;
-                position: absolute;
-                bottom: 190px;
-                left: 6px;
-            }
             .musicPlayer__container-left{
                 display: flex;
             }
@@ -1077,10 +1070,11 @@
             height: 16vh;
             margin-bottom: 0;
             overflow-y: scroll;
+            display: flexbox;
         }
         .left__container-second{
             margin-top: 10px;
-            height: 66vh;
+            height: 66.5vh;
         }
         /*Media Query for Laptops 1024px x 866px*/
         @media (min-width: 1024px) {
@@ -1342,8 +1336,7 @@
             }
             .musicPlayer{
                 display: flex;
-                bottom: -14%;
-                left: 1%;
+                margin-bottom: -16%;
             }
             .musicPlayer__container-left{
                 display: flex;
@@ -1590,9 +1583,7 @@
             .musicPlayer {
                 display: flex;
                 justify-content: space-between;
-                width: 13%;
-                background-color: #000000 !important;
-                bottom: 22.5%;
+                margin-bottom: -10%;
             }
             .left__container-second{
                 margin-top: 10px;
@@ -1622,6 +1613,7 @@
         }
         .left__container-second{
             overflow: scroll;
+            height: 69.1vh;
         }
         @media (max-height: 650px){
             .musicPlayer{
@@ -1648,7 +1640,7 @@
                 height: 12%;
             }
             .left__container-second{
-                height: 92.5%;
+                height: 93%;
             }
             .left__container-second-albums{
                 height: 85%;
@@ -1683,10 +1675,26 @@
                 bottom: 21.5%;
             }
         }
+        @media (min-height: 760px) and (min-width: 1439px){
+            .musicPlayer{
+                margin-bottom: -11%;
+            }
+        }
+        @media (min-height: 960px) and (min-width: 1439px){
+            .musicPlayer{
+                margin-bottom: -14%;
+            }
+        }
+        @media (min-height: 1360px) and (min-width: 1024px){
+            .musicPlayer{
+                margin-bottom: -24%;
+            }
+        }
         
-          
+        .musicPlayer{
+            margin-left: 8px;
+        }  
         
-          
           
           
           

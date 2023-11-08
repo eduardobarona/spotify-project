@@ -1,0 +1,1522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <meta name="author" content="Eduardo Barona">
+    <meta name="description" content="Spotify is a digital music service that gives you access to millions of songs.">
+    <meta name="keywords" content="Spotify, Music, Songs, Play Music, Spotify Free, Spotify Premium">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="icon" href="./images/spotify-icon.png">
+    <link rel="preload" href="https://encore.scdn.co/fonts/CircularSp-Book-4eaffdf96f4c6f984686e93d5d9cb325.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://encore.scdn.co/fonts/CircularSp-Bold-fe1cfc14b7498b187c78fa72fb72d148.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://encore.scdn.co/fonts/CircularSpTitle-Bold-2fbf72b606d7f0b0f771ea4956a8b4d6.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://encore.scdn.co/fonts/CircularSpTitle-Black-3f9afb402080d53345ca1850226ca724.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://open.spotifycdn.com/cdn/fonts/spoticon_regular_2.d728648c.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!--Left Container-->
+    <div class="left__container">
+        <!--First Box-->
+        <div class="left__container-first">
+            <a class="left__container-first-link" href="#">
+                <i class="bi bi-house-door left__container-first-icon"></i>
+                <h4 class="left__container-first-text">Homepage</h4>
+            </a>
+            <a class="left__container-first-link" href="#">
+                <i class="bi bi-search left__container-first-icon"></i>
+                <h4 class="left__container-first-text">Search</h4>
+            </a>
+        </div>
+        <!--Second Box-->
+        <div class="left__container-second">
+            <div class="left__container-second-lib">
+                <a class="left__container-second-link-lib" href="#">
+                    <i class="bi bi-collection-fill left__container-second-lib-icon"></i>
+                    <h4 class="left__container-second-lib-title">Your Library</h4>
+                </a>
+                <div class="left__container-second-plus">
+                    <a class="left__container-second-link" href="#">
+                        <i class="bi bi-plus left__container-second-lib-plus"></i>
+                    </a>
+                    <a class="left__container-second-link" href="#">
+                        <i class="bi bi-arrow-right left__container-second-lib-arrow"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="left__container-second-tags">
+                <a class="left__container-second-tags-link" href="#">
+                    <h4 class="left__container-second-tags-text">
+                    Playlists
+                    </h4>
+                </a>
+                <a class="left__container-second-tags-link" href="#">
+                    <h4 class="left__container-second-tags-text">
+                    Albums
+                    </h4>
+                </a>
+                <a class="left__container-second-tags-link" href="#">
+                    <h4 class="left__container-second-tags-text">
+                    Podcasts and Programs
+                    </h4>
+                </a>
+            </div>
+            <div class="left__container-second-albums">
+                <div class="left__container-second-albums-icons">
+                    <a class="left__container-second-link" href="#">
+                        <i class="bi bi-search left__container-second-icon-sch"></i>
+                    </a>
+                    <div class="left__container-second-albums-recent">
+                        <a class="left__container-second-link" href="#">
+                            <h4 class="left__container-second-text">Recents</h4>
+                            <i class="bi bi-filter left__container-second-icon-fter"></i>
+                        </a>
+                    </div>
+                </div>
+                <article class="left__container-second-cards">
+                    <a class="left__container-second-cards-link" href="#">
+                       <div class="left__container-second-img">
+                           <img class="left__container-img" src="./images/yourlibrary/tusmeGustas.png" alt="Image about Your Likes">
+                       </div>
+                        <div class="left__container-second-info">
+                            <h4 class="left__container-second-title">Your Likes</h4>
+                            <p class="left__container-second-txt">Playlist · 168 songs</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="left__container-second-cards">
+                    <a class="left__container-second-cards-link" href="#">
+                       <div class="left__container-second-img">
+                           <img class="left__container-img" src="./images/yourlibrary/vivaLatino.jfif" alt="Image about Viva Latino">
+                       </div>
+                        <div class="left__container-second-info">
+                            <h4 class="left__container-second-title">Viva Latino</h4>
+                            <p class="left__container-second-txt">Playlist · Spotify</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="left__container-second-cards">
+                    <a class="left__container-second-cards-link" href="#">
+                       <div class="left__container-second-img">
+                           <img class="left__container-img" src="./images/yourlibrary/top2022.jpg" alt="Image about Your Favorite Songs in 2022">
+                       </div>
+                        <div class="left__container-second-info">
+                            <h4 class="left__container-second-title">Your Favorites Songs in 2022</h4>
+                            <p class="left__container-second-txt">Playlist · Spotify</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="left__container-second-cards">
+                    <a class="left__container-second-cards-link" href="#">
+                       <div class="left__container-second-img">
+                           <img class="left__container-img" src="./images/yourlibrary/veranoSinTi.jfif" alt="Image about Un Verano Sin Ti">
+                       </div>
+                        <div class="left__container-second-info">
+                            <h4 class="left__container-second-title">Un Verano Sin Ti</h4>
+                            <p class="left__container-second-txt">Playlist · Bad Bunny</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="left__container-second-cards">
+                    <a class="left__container-second-cards-link" href="#">
+                       <div class="left__container-second-img">
+                           <img class="left__container-img" src="./images/yourlibrary/ultimoTour.jfif" alt="Image about EL ÚLTIMO TOUR DEL MUNDO">
+                       </div>
+                        <div class="left__container-second-info">
+                            <h4 class="left__container-second-title">EL ÚLTIMO TOUR DEL MUNDO</h4>
+                            <p class="left__container-second-txt">Playlist · Bad Bunny</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="left__container-second-cards">
+                    <a class="left__container-second-cards-link" href="#">
+                       <div class="left__container-second-img">
+                           <img class="left__container-img" src="./images/yourlibrary/yhlqmdlg.jfif" alt="Image about YHLQMDLG">
+                       </div>
+                        <div class="left__container-second-info">
+                            <h4 class="left__container-second-title">YHLQMDLG</h4>
+                            <p class="left__container-second-txt">Playlist · Bad Bunny</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="left__container-second-cards">
+                    <a class="left__container-second-cards-link" href="#">
+                       <div class="left__container-second-img">
+                           <img class="left__container-img" src="./images/yourlibrary/bigInternet.jfif" alt="Image about big on the internet">
+                       </div>
+                        <div class="left__container-second-info">
+                            <h4 class="left__container-second-title">big on the internet</h4>
+                            <p class="left__container-second-txt">Playlist · Spotify</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="left__container-second-cards">
+                    <a class="left__container-second-cards-link" href="#">
+                       <div class="left__container-second-img">
+                           <img class="left__container-img" src="./images/yourlibrary/inglescero.jfif" alt="Image about English from zero">
+                       </div>
+                        <div class="left__container-second-info">
+                            <h4 class="left__container-second-title">English From Zero</h4>
+                            <p class="left__container-second-txt">Podcast · Stephen Bain & Daniel Barbour</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="left__container-second-cards">
+                    <a class="left__container-second-cards-link" href="#">
+                       <div class="left__container-second-img">
+                           <img class="left__container-img" src="./images/yourlibrary/mansionRegga.jfif" alt="Image about Mansion Reggaeton">
+                       </div>
+                        <div class="left__container-second-info">
+                            <h4 class="left__container-second-title">Reggaeton Mansion</h4>
+                            <p class="left__container-second-txt">Playlist · Spotify</p>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </div>
+    <!--Right Container-->
+    <div class="right__container">
+        <!-- Header -->
+        <header class="header">
+            <!--Arrows Section-->
+            <div class="header__container-arrows">
+                <a class="header__arrows" href="#"><i class="header__arrow-left bi bi-chevron-left"></i></a>
+                <a class="header__arrows" href="#"><i class="header__arrow-right bi bi-chevron-right"></i></a>
+            </div>
+            <!--Nav Section -->
+            <nav class="header__nav">
+                <a class="header__nav-link-white" href="#">Discover Premium</a>
+                <a class="header__nav-link" href="#"><i class="bi bi-arrow-down-circle header__nav-icon-download"></i>Install aplication</a>
+                <a class="header__nav-link-icon" href="#"><i class="header__nav-icon bi bi-bell"></i></a>
+                <a class="header__nav-link-icon" href="#"><i class="header__nav-icon bi bi-person"></i></a>
+            </nav>
+        </header>
+        <!--Section - Made For You -->
+        <section class="albums">
+            <div class="albums__container-header">
+            <!--Title Section-->
+                <div class="albums__title_container">
+                    <a class="albums__title-link" href="#">
+                        <h2 class="albums__title">Made for you, Eduardo</h2>
+                    </a>
+                </div>
+                <!--More Results Section-->
+                <div class="albums__show_container">
+                    <a class="albums__show-link" href="#">
+                        <h4 class="albums__show-text">Show All</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="albums__container-cards">
+                <!--Mix 1-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/madeForEduardoBarona/mixDiario1.jfif" alt="Image about Daily Mix 1">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Daily Mix 1</h4>
+                        <p class="albums__container-text">Alkaloides, El General Villamil, La Máquina...</p>
+                    </a> 
+                </article>
+                <!--Mix 2-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/madeForEduardoBarona/mixDiario2.jfif" alt="Image about Daily Mix 2">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Daily Mix 2</h4>
+                        <p class="albums__container-text">Bad Bunny, Nacho, De la Ghetto and more.</p>
+                    </a> 
+                </article>
+                <!--Mix 3-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/madeForEduardoBarona/mixDiario3.jfif" alt="Image about Daily Mix 3">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Daily Mix 3</h4>
+                        <p class="albums__container-text">Halsey, Melanie Martinez, The weekends and more.</p>
+                    </a> 
+                </article>
+                <!--Mix 4-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/madeForEduardoBarona/mixDiario4.jfif" alt="Image about Daily Mix 4">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Daily Mix 4</h4>
+                        <p class="albums__container-text">Maluma, Piso 21 Karol G and more.</p>
+                    </a> 
+                </article>
+                <!--Mix 5-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/madeForEduardoBarona/mixDiario5.jfif" alt="Image about Daily Mix 5">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Daily Mix 5</h4>
+                        <p class="albums__container-text">Troye Sivan, Lauv, Shawn Mendez...</p>
+                    </a> 
+                </article>
+            </div>
+        </section>
+        <!--Section - Most Popular Mixes -->
+        <section class="albums">
+            <div class="albums__container-header">
+            <!--Title Section-->
+                <div class="albums__title_container">
+                    <a class="albums__title-link" href="#">
+                        <h2 class="albums__title">Most Popular Mixes</h2>
+                    </a>
+                </div>
+                <!--More Results Section-->
+                <div class="albums__show_container">
+                    <a class="albums__show-link" href="#">
+                        <h4 class="albums__show-text">Show All</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="albums__container-cards">
+                <!--Album 1-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/mixsMostListened/badbunnymix.jfif" alt="Image about Bad Bunny Mix">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Bad Bunny Mix</h4>
+                        <p class="albums__container-text">Piso 21, Manuel Turizo y Karol G</p>
+                    </a> 
+                </article>
+                <!--Album 2-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/mixsMostListened/ozunamix.jfif" alt="Image about Ozuna Mix">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Ozuna Mix</h4>
+                        <p class="albums__container-text">Karol G, Piso 21 y Mau y Ricky</p>
+                    </a> 
+                </article>
+                <!--Album 3-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/mixsMostListened/romanticMusic.jfif" alt="Image about Romantic Mix Music">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Romantic Mix Music</h4>
+                        <p class="albums__container-text">Marco Antonio Solis, Axel, Manuel Turizo...</p>
+                    </a> 
+                </article>
+                <!--Album 4-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/mixsMostListened/SadMusic.jfif" alt="Image about Sad Mix Music">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Sad Mix Music</h4>
+                        <p class="albums__container-text">Jósean Log, Carla Morrison, Manuel...</p>
+                    </a> 
+                </article>
+                <!--Album 5-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/mixsMostListened/reggaetonMix.jfif" alt="Image about Reggaeton Mix Music">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Reggaeton Mix Music</h4>
+                        <p class="albums__container-text">Mau y Ricky, Fuego, Karol G and more</p>
+                    </a> 
+                </article>
+            </div>
+        </section>
+        <!--Section - The best of the Artists -->
+        <section class="albums">
+            <div class="albums__container-header">
+            <!--Title Section-->
+                <div class="albums__title_container">
+                    <a class="albums__title-link" href="#">
+                        <h2 class="albums__title">The best of the artists</h2>
+                    </a>
+                </div>
+                <!--More Results Section-->
+                <div class="albums__show_container">
+                    <a class="albums__show-link" href="#">
+                        <h4 class="albums__show-text">Show All</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="albums__container-cards">
+                <!--Album 1-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/bestArtists/enriqueIglesias.jpg" alt="Image about Enrique Iglesias">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">This is Enrique Igle...</h4>
+                        <p class="albums__container-text">This is Enrique Iglesias. His best songs</p>
+                    </a> 
+                </article>
+                <!--Album 2-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/bestArtists/manuelTurizo.jpg" alt="Image about Manuel Turizo">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">This is Manuel Turizo</h4>
+                        <p class="albums__container-text">This is Enrique Iglesias. His best songs</p>
+                    </a> 
+                </article>
+                <!--Album 3-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/bestArtists/rauwAlejandro.jpg" alt="Image about Rauw Alejandro">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">This is Rauw Alejan...</h4>
+                        <p class="albums__container-text">This is Rauw Alejandro. His best songs</p>
+                    </a> 
+                </article>
+                <!--Album 4-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/bestArtists/mana.jpg" alt="Image about Maná">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">This is Maná</h4>
+                        <p class="albums__container-text">This is Maná. Their best songs</p>
+                    </a> 
+                </article>
+                <!--Album 5-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/bestArtists/manuelMedrano.jpg" alt="Image about Manuel Medrano">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">This is Manuel Me...</h4>
+                        <p class="albums__container-text">This is Manuel Medrano. His best songs</p>
+                    </a> 
+                </article>
+            </div>
+        </section>
+        <!--Section - Episodes For You -->
+        <section class="albums">
+            <div class="albums__container-header">
+            <!--Title Section-->
+                <div class="albums__title_container">
+                    <a class="albums__title-link" href="#">
+                        <h2 class="albums__title">Episodes for you</h2>
+                    </a>
+                </div>
+                <!--More Results Section-->
+                <div class="albums__show_container">
+                    <a class="albums__show-link" href="#">
+                        <h4 class="albums__show-text">Show All</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="albums__container-cards">
+                <!--Album 1-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/episodesForYou/englishBig.jfif" alt="Image about Inglés desde cero">
+                        <img class="albums__container-small-image" src="./images/episodesForYou/englishSmall.jfif" alt="Play Button">
+                        <h4 class="albums__container-title">003 - What's up/ ...</h4>
+                        <p class="albums__container-text">nov 2015 · 11 min</p>
+                    </a> 
+                </article>
+                <!--Album 2-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/episodesForYou/cotorrisaBig.jfif" alt="Image about Cotorrisa">
+                        <img class="albums__container-small-image" src="./images/episodesForYou/cotorrisaLow.jfif" alt="Play Button">
+                        <h4 class="albums__container-title">Episode 230 - Me...</h4>
+                        <p class="albums__container-text">20 ago · 71 min</p>
+                    </a> 
+                </article>
+                <!--Album 3-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/episodesForYou/shunshoBig.jfif" alt="Image abuto Shunsho Show">
+                        <img class="albums__container-small-image" src="./images/episodesForYou/shunshoSmall.jfif" alt="Play Button">
+                        <h4 class="albums__container-title">De inconsciente a...</h4>
+                        <p class="albums__container-text">21 ago · 15 min</p>
+                    </a> 
+                </article>
+                <!--Album 4-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/episodesForYou/filosofiaBig.jfif" alt="Image about the Philosophy Show">
+                        <img class="albums__container-small-image" src="./images/episodesForYou/filosofiaSmall.jfif" alt="Play Button">
+                        <h4 class="albums__container-title">Introduction to the...</h4>
+                        <p class="albums__container-text">23 may · 7 min</p>
+                    </a> 
+                </article>
+                <!--Album 5-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/episodesForYou/sabiduriaBig.jfif" alt="Image about the Wisdom Show">
+                        <img class="albums__container-small-image" src="./images/episodesForYou/sabiduriaSmall.jfif" alt="Small Image about the Wisdom Show">
+                        <h4 class="albums__container-title">Jack Ma</h4>
+                        <p class="albums__container-text">22 jun · 13 min</p>
+                    </a> 
+                </article>
+            </div>
+        </section>
+        <!--Section - Popular Stations -->
+        <section class="albums">
+            <div class="albums__container-header">
+            <!--Title Section-->
+                <div class="albums__title_container">
+                    <a class="albums__title-link" href="#">
+                        <h2 class="albums__title">Popular Stations</h2>
+                    </a>
+                </div>
+                <!--More Results Section-->
+                <div class="albums__show_container">
+                    <a class="albums__show-link" href="#">
+                        <h4 class="albums__show-text">Show All</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="albums__container-cards">
+                <!--Album 1-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/popularStations/karolRadio.jpg" alt="Image about Karol G Radio">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Karol G Radio</h4>
+                        <p class="albums__container-text">By Spotify</p>
+                    </a> 
+                </article>
+                <!--Album 2-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/popularStations/feid.jpg" alt="Image about Feid Radio">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Feid Radio</h4>
+                        <p class="albums__container-text">By Spotify</p>
+                    </a> 
+                </article>
+                <!--Album 3-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/popularStations/badRadio.jpg" alt="Image about Bad Bunny Radio">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Bad Bunny Radio</h4>
+                        <p class="albums__container-text">By Spotify</p>
+                    </a> 
+                </article>
+                <!--Album 4-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/popularStations/coldplayRadio.jpg" alt="Image about Coldplay Radio">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Coldplay Radio</h4>
+                        <p class="albums__container-text">By Spotify</p>
+                    </a> 
+                </article>
+                <!--Album 5-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/popularStations/moratRadio.jpg" alt="Image about Morat Radio">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Morat Radio</h4>
+                        <p class="albums__container-text">By Spotify</p>
+                    </a> 
+                </article>
+            </div>
+        </section>
+        <!--Section - Recommended Stations -->
+        <section class="albums">
+            <div class="albums__container-header">
+            <!--Title Section-->
+                <div class="albums__title_container">
+                    <a class="albums__title-link" href="#">
+                        <h2 class="albums__title">Recommended Stations</h2>
+                    </a>
+                </div>
+                <!--More Results Section-->
+                <div class="albums__show_container">
+                    <a class="albums__show-link" href="#">
+                        <h4 class="albums__show-text">Show All</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="albums__container-cards">
+                <!--Mix 1-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/stationRecommended/jbalvinRadio.jpg" alt="Image about J Balvin Radio">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">J Balvin Radio</h4>
+                        <p class="albums__container-text">By Spotify</p>
+                    </a> 
+                </article>
+                <!--Mix 2-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/stationRecommended/edhseeranradio.jpg" alt="Image about Ed Sheeran Radio">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Ed Sheeran Radio</h4>
+                        <p class="albums__container-text">By Spotify</p>
+                    </a> 
+                </article>
+                <!--Mix 3-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/stationRecommended/piso21Radio.jpg" alt="Image about Piso 21 Radio">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Piso 21 Radio</h4>
+                        <p class="albums__container-text">By Spotify</p>
+                    </a> 
+                </article>
+                <!--Mix 4-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/stationRecommended/manaRadio.jpg" alt="Image about Maná Radio">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Maná Radio</h4>
+                        <p class="albums__container-text">By Spotify</p>
+                    </a> 
+                </article>
+                <!--Mix 5-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/stationRecommended/oasisRadio.jpg" alt="Image about Oasis Radio">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Oasis Radio</h4>
+                        <p class="albums__container-text">By Spotify</p>
+                    </a> 
+                </article>
+            </div>
+        </section>
+        <!--Section - Music For Chilling -->
+        <section class="albums">
+            <div class="albums__container-header">
+            <!--Title Section-->
+                <div class="albums__title_container">
+                    <a class="albums__title-link" href="#">
+                        <h2 class="albums__title">Music For Chilling</h2>
+                    </a>
+                </div>
+                <!--More Results Section-->
+                <div class="albums__show_container">
+                    <a class="albums__show-link" href="#">
+                        <h4 class="albums__show-text">Show All</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="albums__container-cards">
+                <!--Album 1-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/musicForChill/mansionReggadgon.jfif" alt="Image about Reggaeton Mansion">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Reggaeton Mansion</h4>
+                        <p class="albums__container-text">From the streets to the TOP with Bad Bunny.</p>
+                    </a> 
+                </article>
+                <!--Album 2-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/musicForChill/ecuadorExitos.jfif" alt="Image about Ecuadorian Hits">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Ecuadorian Hits</h4>
+                        <p class="albums__container-text">The best Hits in Ecuador.</p>
+                    </a> 
+                </article>
+                <!--Album 3-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/musicForChill/popeton.jfif" alt="Image about Popetón">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Popetón</h4>
+                        <p class="albums__container-text">¡The best Pop Urbans Hits!</p>
+                    </a> 
+                </article>
+                <!--Album 4-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/musicForChill/defiesta.jfif" alt="Image about Party">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Party</h4>
+                        <p class="albums__container-text">¡The best Hits for the Party!</p>
+                    </a> 
+                </article>
+                <!--Album 5-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/musicForChill/popIngles.jfif" alt="Image about English Pop">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">English Pop</h4>
+                        <p class="albums__container-text">The best English Pop.</p>
+                    </a> 
+                </article>
+            </div>
+        </section>
+        <!--Section - Similar to Myke Towers -->
+        <section class="albums">
+            <div class="albums__container-header">
+            <!--Title Section-->
+                <div class="albums__title_container">
+                    <a class="albums__title-link" href="#">
+                        <h2 class="albums__title">Similar to Myke Towers</h2>
+                    </a>
+                </div>
+                <!--More Results Section-->
+                <div class="albums__show_container">
+                    <a class="albums__show-link" href="#">
+                        <h4 class="albums__show-text">Show All</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="albums__container-cards">
+                <!--Album 1-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/similarMikeTower/reggaetonRewind.jfif" alt="Image about Reggaeton Rewind">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Reggaeton Rewind</h4>
+                        <p class="albums__container-text">That hits that you want to follow...</p>
+                    </a> 
+                </article>
+                <!--Album 2-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/similarMikeTower/mykeTowersRadio.jpg" alt="Image about Myke Towers Radio">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Myke Towers Radio</h4>
+                        <p class="albums__container-text">By Spotify</p>
+                    </a> 
+                </article>
+                <!--Album 3-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image-artist" src="./images/similarMikeTower/juhn.jfif" alt="Image about Juhn">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Juhn</h4>
+                        <p class="albums__container-text">Artist</p>
+                    </a> 
+                </article>
+                <!--Album 4-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image-artist" src="./images/similarMikeTower/caspermagico.jfif" alt="Image about Casper Mágico">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Casper Mágico</h4>
+                        <p class="albums__container-text">Artist</p>
+                    </a> 
+                </article>
+                <!--Album 5-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image-artist" src="./images/similarMikeTower/jonz.jfif" alt="Image about John Z">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">John Z</h4>
+                        <p class="albums__container-text">Artist</p>
+                    </a> 
+                </article>
+            </div>
+        </section>
+        <!--Section - Similar to Yng Lvcas -->
+        <section class="albums">
+            <div class="albums__container-header">
+            <!--Title Section-->
+                <div class="albums__title_container">
+                    <a class="albums__title-link" href="#">
+                        <h2 class="albums__title">Similar to Yng Lvcas</h2>
+                    </a>
+                </div>
+                <!--More Results Section-->
+                <div class="albums__show_container">
+                    <a class="albums__show-link" href="#">
+                        <h4 class="albums__show-text">Show All</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="albums__container-cards">
+                <!--Album 1-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/similarYng/ynglvcasRadio.jpg" alt="Image about Yng Lvcas Radio">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Yng Lvcas Radio</h4>
+                        <p class="albums__container-text">Alkaloides, El General Villamil, La Máquina...</p>
+                    </a> 
+                </article>
+                <!--Album 2-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image-artist" src="./images/similarYng/alnzg.jfif" alt="Image about Alnz G">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Alnz G</h4>
+                        <p class="albums__container-text">Artist</p>
+                    </a> 
+                </article>
+                <!--Album 3-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image-artist" src="./images/similarYng/jedis.jfif" alt="Image about Jedis">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Jedis</h4>
+                        <p class="albums__container-text">Artist</p>
+                    </a> 
+                </article>
+                <!--Album 4-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image-artist" src="./images/similarYng/daniFlow.jfif" alt="Image about Dani Flow">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Dani Flow</h4>
+                        <p class="albums__container-text">Artist</p>
+                    </a> 
+                </article>
+                <!--Album 5-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/similarYng/reggaetoñerito.jfif" alt="Image about Reggaetoñerito">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Reggaetoñerito</h4>
+                        <p class="albums__container-text">The Bogueto</p>
+                    </a> 
+                </article>
+            </div>
+        </section>
+        <!--Section - Popular Artists -->
+        <section class="albums">
+            <div class="albums__container-header">
+            <!--Title Section-->
+                <div class="albums__title_container">
+                    <a class="albums__title-link" href="#">
+                        <h2 class="albums__title">Popular Artists</h2>
+                    </a>
+                </div>
+                <!--More Results Section-->
+                <div class="albums__show_container">
+                    <a class="albums__show-link" href="#">
+                        <h4 class="albums__show-text">Show All</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="albums__container-cards">
+                <!--Mix 1-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image-artist" src="./images/popularArtists/karolG.jfif" alt="Image about Karol G">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Karol G</h4>
+                        <p class="albums__container-text">Artist</p>
+                    </a> 
+                </article>
+                <!--Mix 2-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image-artist" src="./images/popularArtists/badbunny.jfif" alt="Image about Bad Bunny">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Bad Bunny</h4>
+                        <p class="albums__container-text">Artist</p>
+                    </a> 
+                </article>
+                <!--Mix 3-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image-artist" src="./images/popularArtists/mora.jfif" alt="Image about Mora">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Mora</h4>
+                        <p class="albums__container-text">Artist</p>
+                    </a> 
+                </article>
+                <!--Mix 4-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image-artist" src="./images/popularArtists/fiedNormal.jfif" alt="Image about Feid">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Feid</h4>
+                        <p class="albums__container-text">Artist</p>
+                    </a> 
+                </article>
+                <!--Mix 5-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image-artist" src="./images/popularArtists/mykeTowers.jfif" alt="Image about Myke Towers">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Myke Towers</h4>
+                        <p class="albums__container-text">Artist</p>
+                    </a> 
+                </article>
+            </div>
+        </section>
+        <!--Section - Your Favorite Artists -->
+        <section class="albums">
+            <div class="albums__container-header">
+            <!--Title Section-->
+                <div class="albums__title_container">
+                    <a class="albums__title-link" href="#">
+                        <h2 class="albums__title">Your Favorite Artists</h2>
+                    </a>
+                </div>
+                <!--More Results Section-->
+                <div class="albums__show_container">
+                    <a class="albums__show-link" href="#">
+                        <h4 class="albums__show-text">Show All</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="albums__container-cards">
+                <!--Mix 1-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image-artist" src="./images/favoriteArtists/rauwAlejnadroNormal.jfif" alt="Image about Rauw Alejandro">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Rauw Alejandro</h4>
+                        <p class="albums__container-text">Artist</p>
+                    </a> 
+                </article>
+                <!--Mix 2-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image-artist" src="./images/favoriteArtists/manuelTurizoNormal.jfif" alt="Image about Manuel Turizo">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Manuel Turizo</h4>
+                        <p class="albums__container-text">Artist</p>
+                    </a> 
+                </article>
+                <!--Mix 3-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image-artist" src="./images/favoriteArtists/ozuna.jfif" alt="Image about Ozuna">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Ozuna</h4>
+                        <p class="albums__container-text">Artist</p>
+                    </a> 
+                </article>
+                <!--Mix 4-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image-artist" src="./images/favoriteArtists/piso21.jfif" alt="Image about Piso 21">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Piso 21</h4>
+                        <p class="albums__container-text">Artist</p>
+                    </a> 
+                </article>
+                <!--Mix 5-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image-artist" src="./images/favoriteArtists/manuelMedranoNormal.jfif" alt="Image about Manuel Medrano">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Manuel Medrano</h4>
+                        <p class="albums__container-text">Artist</p>
+                    </a> 
+                </article>
+            </div>
+        </section>
+        <!--Section - A Look into the Past -->
+        <section class="albums">
+            <div class="albums__container-header">
+            <!--Title Section-->
+                <div class="albums__title_container">
+                    <a class="albums__title-link" href="#">
+                        <h2 class="albums__title">A Look into the Past</h2>
+                    </a>
+                </div>
+                <!--More Results Section-->
+                <div class="albums__show_container">
+                    <a class="albums__show-link" href="#">
+                        <h4 class="albums__show-text">Show All</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="albums__container-cards">
+                <!--Album 1-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/lookBack/reggaetonViejito.jfif" alt="Image about Old Reggaeton">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Old Reggaeton</h4>
+                        <p class="albums__container-text">Remember this old hits.</p>
+                    </a> 
+                </article>
+                <!--Album 2-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/lookBack/top2019.jfif" alt="Image about Top Songs 2019">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Top Songs 2019</h4>
+                        <p class="albums__container-text">The most listen songs in 2019.</p>
+                    </a> 
+                </article>
+                <!--Album 3-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/lookBack/topDecada.jfif" alt="Image about Top Songs of the Decade">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Top Songs of the De...</h4>
+                        <p class="albums__container-text">The most listen songs in the decade.</p>
+                    </a> 
+                </article>
+                <!--Album 4-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/lookBack/rockClassics.jfif" alt="Image about Rock Classics">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Rock Classics</h4>
+                        <p class="albums__container-text">Rock Legends & epic songs that continue to...</p>
+                    </a> 
+                </article>
+                <!--Album 5-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/lookBack/trapRewind.jfif" alt="Image about Trap Rewind">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Trap Rewind</h4>
+                        <p class="albums__container-text">Songs from yesterday, and classics for ever.</p>
+                    </a> 
+                </article>
+            </div>
+        </section>
+        <!--Section - Similar to Feid -->
+        <section class="albums">
+            <div class="albums__container-header">
+            <!--Title Section-->
+                <div class="albums__title_container">
+                    <a class="albums__title-link" href="#">
+                        <h2 class="albums__title">Similar to Feid</h2>
+                    </a>
+                </div>
+                <!--More Results Section-->
+                <div class="albums__show_container">
+                    <a class="albums__show-link" href="#">
+                        <h4 class="albums__show-text">Show All</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="albums__container-cards">
+                <!--Album 1-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image-artist" src="./images/similarFeid/nattiNatasha.jfif" alt="Image about Natti Natasha">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">NATTI NATASHA</h4>
+                        <p class="albums__container-text">Artist</p>
+                    </a> 
+                </article>
+                <!--Album 2-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image-artist" src="./images/similarFeid/KHEA.jfif" alt="Image about KHEA">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">KHEA</h4>
+                        <p class="albums__container-text">Artist</p>
+                    </a> 
+                </article>
+                <!--Album 3-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/similarFeid/epicoLunay.jfif" alt="Image about Épico">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Épico</h4>
+                        <p class="albums__container-text">Lunay</p>
+                    </a> 
+                </article>
+                <!--Album 4-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/similarFeid/climaxxx.jfif" alt="Image about Climaxxx">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Climaxxx</h4>
+                        <p class="albums__container-text">Dalex</p>
+                    </a> 
+                </article>
+                <!--Album 5-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/similarFeid/kring.jfif" alt="Image about KrING">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">KrING</h4>
+                        <p class="albums__container-text">KEVIN ROLDAN</p>
+                    </a> 
+                </article>
+            </div>
+        </section>
+        <!--Section - Popular New Releases -->
+        <section class="albums">
+            <div class="albums__container-header">
+            <!--Title Section-->
+                <div class="albums__title_container">
+                    <a class="albums__title-link" href="#">
+                        <h2 class="albums__title">Popular New Releases</h2>
+                    </a>
+                </div>
+                <!--More Results Section-->
+                <div class="albums__show_container">
+                    <a class="albums__show-link" href="#">
+                        <h4 class="albums__show-text">Show All</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="albums__container-cards">
+                <!--Album 1-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/popularNewReleases/theDeathOFRand.jfif" alt="Image about the Death Of Randy">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">The Death of Ran...</h4>
+                        <p class="albums__container-text">The Hives</p>
+                    </a> 
+                </article>
+                <!--Album 2-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/popularNewReleases/utopia.jfif" alt="Image abut UTOPIA">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">UTOPIA</h4>
+                        <p class="albums__container-text">Travis Scott</p>
+                    </a> 
+                </article>
+                <!--Album 3-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/popularNewReleases/austin.jfif" alt="Image about AUSTIN">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">AUSTIN</h4>
+                        <p class="albums__container-text">Post Malone</p>
+                    </a> 
+                </article>
+                <!--Album 4-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/popularNewReleases/loveliestTime.jfif" alt="Image about The Loveliest Time">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">The Loveliest Time</h4>
+                        <p class="albums__container-text">Carly Rae Jepsen</p>
+                    </a> 
+                </article>
+                <!--Album 5-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/popularNewReleases/donJuan.jfif" alt="Image about Maluma">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Don Juan</h4>
+                        <p class="albums__container-text">Maluma</p>
+                    </a> 
+                </article>
+            </div>
+        </section>
+        <!--Section - Popular Albums -->
+        <section class="albums">
+            <div class="albums__container-header">
+            <!--Title Section-->
+                <div class="albums__title_container">
+                    <a class="albums__title-link" href="#">
+                        <h2 class="albums__title">Popular Albums</h2>
+                    </a>
+                </div>
+                <!--More Results Section-->
+                <div class="albums__show_container">
+                    <a class="albums__show-link" href="#">
+                        <h4 class="albums__show-text">Show All</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="albums__container-cards">
+                <!--Album 1-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/popularAlbums/veranoSinTi.jfif" alt="Image about Un Verano Sin Ti Album">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Un Verano Sin Ti</h4>
+                        <p class="albums__container-text">Bad Bunny</p>
+                    </a> 
+                </article>
+                <!--Album 2-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/popularAlbums/estrella.jfif" alt="Image about Estrella Album">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">ESTRELLA</h4>
+                        <p class="albums__container-text">Mora</p>
+                    </a> 
+                </article>
+                <!--Album 3-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/popularAlbums/mañanaSeraBonito.jfif" alt="Image about Mañana Será Bonito Album">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">MAÑANA SERÁ BO...</h4>
+                        <p class="albums__container-text">KAROL G</p>
+                    </a> 
+                </article>
+                <!--Album 4-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/popularAlbums/fcFerxoo.jfif" alt="Image about FELIZ CUMPLEAÑOS FERXOO Album">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">FELIZ CUMPLEAÑ...</h4>
+                        <p class="albums__container-text">Feid</p>
+                    </a> 
+                </article>
+                <!--Album 5-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/popularAlbums/data.jfif" alt="Image about DATA">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">DATA</h4>
+                        <p class="albums__container-text">Tainy</p>
+                    </a> 
+                </article>
+            </div>
+        </section>
+        <!--Section - Suggestions For Today -->
+        <section class="albums">
+            <div class="albums__container-header">
+            <!--Title Section-->
+                <div class="albums__title_container">
+                    <a class="albums__title-link" href="#">
+                        <h2 class="albums__title">Suggestions For Today</h2>
+                    </a>
+                </div>
+                <!--More Results Section-->
+                <div class="albums__show_container">
+                    <a class="albums__show-link" href="#">
+                        <h4 class="albums__show-text">Show All</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="albums__container-cards">
+                <!--Album 1-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/suggestionsForToday/laVidaEsUna.jfif" alt="Image about LA VIDA ES UNA">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">LA VIDA ES UNA</h4>
+                        <p class="albums__container-text">Myke Towers</p>
+                    </a> 
+                </article>
+                <!--Album 2-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/suggestionsForToday/classy101.jfif" alt="Image about Classy 101">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Classy 101</h4>
+                        <p class="albums__container-text">Fied, Young Miko</p>
+                    </a> 
+                </article>
+                <!--Album 3-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/suggestionsForToday/labeberemix.jfif" alt="Image about La Bebe (Remix)">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">La Bebe (Remix)</h4>
+                        <p class="albums__container-text">Yng Lvcas, Peso Pluma</p>
+                    </a> 
+                </article>
+                <!--Album 4-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/suggestionsForToday/whereSheGoes.jfif" alt="Image about Where She Goes">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">WHERE SHE GOES</h4>
+                        <p class="albums__container-text">Bad Bunny</p>
+                    </a> 
+                </article>
+                <!--Album 5-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/suggestionsForToday/resistencia.jfif" alt="Image about Resistencia">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Resistencia</h4>
+                        <p class="albums__container-text">Yandel</p>
+                    </a> 
+                </article>
+            </div>
+        </section>
+        <!--Section - Last You Hear -->
+        <section class="albums">
+            <div class="albums__container-header">
+            <!--Title Section-->
+                <div class="albums__title_container">
+                    <a class="albums__title-link" href="#">
+                        <h2 class="albums__title">Last You Hear</h2>
+                    </a>
+                </div>
+                <!--More Results Section-->
+                <div class="albums__show_container">
+                    <a class="albums__show-link" href="#">
+                        <h4 class="albums__show-text">Show All</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="albums__container-cards">
+                <!--Album 1-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/lastYourHear/laListaPop.jfif" alt="Image about Pop Playlist">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Pop Playlist</h4>
+                        <p class="albums__container-text">The Latin Pop Hits.</p>
+                    </a> 
+                </article>
+                <!--Album 2-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/lastYourHear/veranoForever.jfif" alt="Image about Summer Forever">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Summer Forever</h4>
+                        <p class="albums__container-text">The summer soundtrack of 2023.</p>
+                    </a> 
+                </article>
+                <!--Album 3-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/lastYourHear/lloradnoClub.jfif" alt="Image about Crying in the club">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Crying in the club</h4>
+                        <p class="albums__container-text">POV: You're crying and dancing at the...</p>
+                    </a> 
+                </article>
+                <!--Album 4-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/lastYourHear/masPegao.jfif" alt="Image about Más Pegado que Poster en la Calle">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Más Pegao que Po...</h4>
+                        <p class="albums__container-text">Songs that you will repeat.</p>
+                    </a> 
+                </article>
+                <!--Album 5-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/lastYourHear/globalX.jfif" alt="Image about Global X">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Global X</h4>
+                        <p class="albums__container-text">Discover mysthic crossover hits from...</p>
+                    </a> 
+                </article>
+            </div>
+        </section>
+        <!--Section - Karol G Fans -->
+        <section class="albums">
+            <div class="albums__container-header">
+            <!--Title Section-->
+                <div class="albums__title_container">
+                    <a class="albums__title-link" href="#">
+                        <h2 class="albums__title">Karol G Fans</h2>
+                    </a>
+                </div>
+                <!--More Results Section-->
+                <div class="albums__show_container">
+                    <a class="albums__show-link" href="#">
+                        <h4 class="albums__show-text">Show All</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="albums__container-cards">
+                <!--Album 1-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/karolGFans/thisKarolG.jpg" alt="Image about This is KAROL G">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">This Is KAROL G</h4>
+                        <p class="albums__container-text">This is KAROL G. Her best hits...</p>
+                    </a> 
+                </article>
+                <!--Album 2-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/karolGFans/tth.jfif" alt="Image about Today Top Hits">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Today's Top Hits</h4>
+                        <p class="albums__container-text">Tate McRae on top of the Hottest 50!</p>
+                    </a> 
+                </article>
+                <!--Album 3-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/karolGFans/vivaLatino.jfif" alt="Image about Viva Latino">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Viva Latino</h4>
+                        <p class="albums__container-text">Today's top Latin hits.</p>
+                    </a> 
+                </article>
+                <!--Album 4-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/karolGFans/bailaReggaeton.jfif" alt="Image about Baila Reggaeton">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Baila Reggaeton</h4>
+                        <p class="albums__container-text">Reggaeton hits from Bad Bunny, KAROL G...</p>
+                    </a> 
+                </article>
+                <!--Album 5-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/karolGFans/popUp.jfif" alt="Image about Pop Up">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Pop Up</h4>
+                        <p class="albums__container-text">Super Mega Hits!</p>
+                    </a> 
+                </article>
+            </div>
+        </section>
+        <!--Section - Mood -->
+        <section class="albums">
+            <div class="albums__container-header">
+            <!--Title Section-->
+                <div class="albums__title_container">
+                    <a class="albums__title-link" href="#">
+                        <h2 class="albums__title">Mood</h2>
+                    </a>
+                </div>
+                <!--More Results Section-->
+                <div class="albums__show_container">
+                    <a class="albums__show-link" href="#">
+                        <h4 class="albums__show-text">Show All</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="albums__container-cards">
+                <!--Album 1-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/mood/HITSaLEGRES.jfif" alt="Image about Happy Hits">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Happy Hits</h4>
+                        <p class="albums__container-text">¡Your music for brighten your day!</p>
+                    </a> 
+                </article>
+                <!--Album 2-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/mood/despiertaSonrie.jfif" alt="Image about Wake Up and Smile">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Wake Up and Smile</h4>
+                        <p class="albums__container-text">Brighten your day with pop in the morning.</p>
+                    </a> 
+                </article>
+                <!--Album 3-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/mood/previaFutbolera.jfif" alt="Image about Previous Soccer">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Previous Soccer</h4>
+                        <p class="albums__container-text">The previous of the soccer is with music.</p>
+                    </a> 
+                </article>
+                <!--Album 4-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/mood/queSad.jfif" alt="Image about So Sad!">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">So Sad!</h4>
+                        <p class="albums__container-text">Music sad for those days...</p>
+                    </a> 
+                </article>
+                <!--Album 5-->
+                <article class="albums__container">
+                    <a class="albums__container-link" href="#">
+                        <img class="albums__container-image" src="./images/mood/sadIndie.jfif" alt="Image about Sad Indie">
+                        <img class="albums__container-play" src="./images/spotify-play-button-black.png" alt="Play Button">
+                        <h4 class="albums__container-title">Sad Indie</h4>
+                        <p class="albums__container-text">The premier alternative melancholic playlists...</p>
+                    </a> 
+                </article>
+            </div>
+        </section>
+        <!--Section - Links to Company, Community, Links and Social Media-->
+        <section class="linksTo">
+            <!--Left Side-->
+            <div class="linksTo__container-left">
+                <div class="linksTo__container-left-hyperlinks">
+                    <h4 class="linksTo__container-left-title">Company</h4>
+                    <a class="linksTo__container-left-link" href="#"><p class="linksTo__container-left-text">About</p></a>
+                    <a class="linksTo__container-left-link" href="#"><p class="linksTo__container-left-text">Employment</p></a>
+                    <a class="linksTo__container-left-link" href="#"><p class="linksTo__container-left-text">For The Record</p></a>
+                </div>
+                <div class="linksTo__container-left-hyperlinks">
+                    <h4 class="linksTo__container-left-title">Community</h4>
+                    <a class="linksTo__container-left-link" href="#"><p class="linksTo__container-left-text">For Artists</p></a>
+                    <a class="linksTo__container-left-link" href="#"><p class="linksTo__container-left-text">Developers</p></a>
+                    <a class="linksTo__container-left-link" href="#"><p class="linksTo__container-left-text">Publicity</p></a>
+                    <a class="linksTo__container-left-link" href="#"><p class="linksTo__container-left-text">Investors</p></a>
+                    <a class="linksTo__container-left-link" href="#"><p class="linksTo__container-left-text">Suppliers</p></a>
+                </div>
+                <div class="linksTo__container-left-hyperlinks">
+                    <h4 class="linksTo__container-left-title">Useful Links</h4>
+                    <a class="linksTo__container-left-link" href="#"><p class="linksTo__container-left-text">Help</p></a>
+                    <a class="linksTo__container-left-link" href="#"><p class="linksTo__container-left-text">Free Mobile App</p></a>
+                </div>
+            </div>
+            <!--Right Side-->
+            <div class="linksTo__container-right">
+                <div class="linksTo__container-right-container-icon"><a class="linksTo__container-left-r-link" href="https://www.instagram.com/spotify/?hl=en" target="_blank"><i class="bi bi-instagram linksTo__container-right-icon"></i></a></div>
+                <div class="linksTo__container-right-container-icon"><a class="linksTo__container-left-r-link" href="https://www.facebook.com/SpotifyLatino/?brand_redir=6243987495" target="_blank"><i class="bi bi-twitter-x linksTo__container-right-icon"></i></a></div>
+                <div class="linksTo__container-right-container-icon"><a class="linksTo__container-left-r-link" href="https://x.com/Spotify?s=20" target="_blank"><i class="bi bi-facebook linksTo__container-right-icon"></i></a></div>
+            </div>
+        </section>
+        <!--Section - Separation Line-->
+        <hr class="separationLine">
+        <!--Section - Footer-->
+        <footer class="footer">
+            <div class="footer__container-left">
+                <a class="footer__container-left-link" href="#"><h4 class="footer__container-left-text">Legal</h4></a>
+                <a class="footer__container-left-link" href="#"><h4 class="footer__container-left-text">Privacity Center</h4></a>
+                <a class="footer__container-left-link" href="#"><h4 class="footer__container-left-text">Privacy Policy</h4></a>
+                <a class="footer__container-left-link" href="#"><h4 class="footer__container-left-text">Cookies</h4></a>
+                <a class="footer__container-left-link" href="#"><h4 class="footer__container-left-text">About Advertisements</h4></a>
+                <a class="footer__container-left-link" href="#"><h4 class="footer__container-left-text">Accesibility</h4></a>
+            </div>
+            <div class="footer__container-right">
+                <h4 class="footer__container-right-text">
+                    © 2023 Spotify AB
+                </h4>
+            </div>
+        </footer>
+    </div>
+
+        
+    <!--Music Player-->
+    <div class="musicPlayer">
+        <div class="musicPlayer__container-left">
+            <a class="musicPlayer__container-left-link" href="#">
+                <img class="musicPlayer__container-left-img" src="./images/musicPlayer/nadieSabeLoQueVaPasarMañana.jfif">
+            </a>
+            <div class="musicPlayer__container-left-inside">
+                <a class="musicPlayer__container-left-link" href="#">
+                    <h4 class="musicPlayer__container-left-title">UN PREVIEW</h4>
+                </a>
+                <a class="musicPlayer__container-left-link" href="#">
+                    <p class="musicPlayer__container-left-text">Bad Bunny</p>
+                </a>
+            </div>
+            <a class="musicPlayer__container-left-link" href="#">
+                <i class="bi bi-heart musicPlayer__container-left-icon"></i>
+            </a>
+        </div>
+        <div class="musicPlayer__container-middle">
+            <div class="musicPlayer__container-middle-play">
+                <i class="bi bi-shuffle musicplayer__container-icon"></i>
+                <i class="bi bi-skip-start-fill musicplayer__container-icon"></i>
+                <i class="bi bi-play-circle-fill musicplayer__container-play" id="masterPlay"></i>
+                <i class="bi bi-skip-end-fill musicplayer__container-icon"></i>
+                <i class="bi bi-repeat musicplayer__container-icon"></i>
+            </div>
+            <div class="musicPlayer__container-middle-linetime">
+                <div class="musicPlayer__container-middle-linetime-reproductor">
+                    <div class="musicPlayer__container-middle-linetime-tiempo">
+                        <h4 class="musicPlayer__container-middle-linetime-tiempo-actual">0:00</h4>
+                        <div class="musicPlayer__container-middle-linetime-bar"></div>
+                        <div class="musicPlayer__container-middle-linetime-bar-white" max="0" value="0"></div>
+                    </div>
+                    <h4 class="musicPlayer__container-middle-linetime-tiempo-total">0:00</h4>
+                </div>
+            </div>
+        </div>
+        <div class="musicPlayer__container-right">
+            <i class="bi bi-play-btn musicPlayer__container-right-icon"></i>
+            <i class="bi bi-mic musicPlayer__container-right-icon"></i>
+            <i class="bi bi-list musicPlayer__container-right-icon"></i>
+            <i class="bi bi-pc-display musicPlayer__container-right-icon"></i>
+            <div  class="musicPlayer__container-right-vol">
+                <i class="bi bi-volume-down musicPlayer__container-right-icon"></i>
+                <div class="musicPlayer__container-right-bar"></div>
+                <div class="musicPlayer__container-right-bar-white"></div>
+            </div>
+            <i class="bi bi-pip musicPlayer__container-right-icon"></i>
+        </div>
+    </div>
+    <audio id="reproductor" controls style="display: none;">
+        <source src="./music/Bad-Bunny-Un-Preview.mp3" type="audio/mpeg">
+    </audio>
+    <script src="javaScript/script2.js"></script>
+</body>
+
+        
